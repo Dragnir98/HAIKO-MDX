@@ -6,8 +6,8 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "INCONNU~XD~RO9VATBS#smUM1mpYVlOd12BwwiwIspMw9urthsdRcWfMmDr99Ic",
-  PREFIX: process.env.PREFIX || '±',
+  SESSION_ID: process.env.SESSION_ID || "INCONNU~XD~hakmzCCS#LxhpxU7DB8SJf_j65iZvRYMbGGgm-fwkninX-8wWpVA",
+  PREFIX: process.env.PREFIX || '+',
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== undefined ? process.env.AUTO_STATUS_SEEN === 'true' : true, 
   AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY !== undefined ? process.env.AUTO_STATUS_REPLY === 'true' : true,
   STATUS_READ_MSG: process.env.STATUS_READ_MSG || '',
