@@ -6,8 +6,8 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "",
-  PREFIX: process.env.PREFIX || '.',
+  SESSION_ID: process.env.SESSION_ID || "INCONNU~XD~RO9VATBS#smUM1mpYVlOd12BwwiwIspMw9urthsdRcWfMmDr99Ic",
+  PREFIX: process.env.PREFIX || '±',
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== undefined ? process.env.AUTO_STATUS_SEEN === 'true' : true, 
   AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY !== undefined ? process.env.AUTO_STATUS_REPLY === 'true' : true,
   STATUS_READ_MSG: process.env.STATUS_READ_MSG || '',
@@ -23,7 +23,7 @@ const config = {
   
   REJECT_CALL: process.env.REJECT_CALL !== undefined ? process.env.REJECT_CALL === 'true' : false, 
   NOT_ALLOW: process.env.NOT_ALLOW !== undefined ? process.env.NOT_ALLOW === 'true' : true,
-  MODE: process.env.MODE || "public",
+  MODE: process.env.MODE || "private",
   BOT_NAME: process.env.BOT_NAME || "PROFESSEUR-XD",
   MENU_IMAGE: process.env.MENU_IMAGE || "https://files.catbox.moe/umpjhb.jpg",
   DESCRIPTION: process.env.DESCRIPTION || "WELCOME TO PROFESSEUR-XD",
